@@ -1,2 +1,8 @@
-function addingEventListener() {
+  
+
+function addingEventListener(event) {
+    const input = document.querySelector('input');
+  input.addEventListener('click', function(event) {
+    return "clicked"
+  });
 }
